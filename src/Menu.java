@@ -53,7 +53,7 @@ public class Menu extends JFrame {
 
     // Eventos de navegación
     menuEstudiantes.addActionListener(e -> {
-        Estudiantes f = new Estudiantes();
+        Estudiante f = new Estudiante();
         f.setVisible(true);
     });
 
